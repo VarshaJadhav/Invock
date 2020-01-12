@@ -14,7 +14,7 @@ const MainNavigator = createStackNavigator({
   [ROUTES_KEYS.SeachPartyList] : {
     screen: SeachPartyList,
     navigationOptions: {
-      title: 'Search',
+      title: 'Search Party',
     }
   },
 },
