@@ -1,0 +1,39 @@
+dependencies: \
+  /Users/admin/Documents/varsha-test/invock-test/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMNativeModulesProxy/UMNativeModulesProxy.m \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Target\ Support\ Files/UMReactNativeAdapter/UMReactNativeAdapter-prefix.pch \
+  /Users/admin/Documents/varsha-test/invock-test/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMNativeModulesProxy/UMNativeModulesProxy.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Private/UMCore/UMInternalModule.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Private/UMCore/UMDefines.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Private/UMCore/UMModuleRegistry.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Private/UMCore/UMExportedModule.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Private/UMCore/UMViewManager.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Private/UMCore/UMModuleRegistryDelegate.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Private/UMCore/UMEventEmitter.h \
+  /Users/admin/Documents/varsha-test/invock-test/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMViewManagerAdapter/UMViewManagerAdapter.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTViewManager.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTEventDispatcher.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/UIView+React.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Users/admin/Documents/varsha-test/invock-test/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMBridgeModule.h \
+  /Users/admin/Documents/varsha-test/invock-test/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/UMModuleRegistryAdapter/UMViewManagerAdapterClassesRegistry.h

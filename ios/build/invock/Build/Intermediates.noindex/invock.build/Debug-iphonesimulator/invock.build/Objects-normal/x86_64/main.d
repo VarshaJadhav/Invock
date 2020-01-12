@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/admin/Documents/varsha-test/invock-test/ios/invock/main.m \
+  /Users/admin/Documents/varsha-test/invock-test/ios/invock/AppDelegate.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMReactNativeAdapter/UMModuleRegistryAdapter.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMModuleRegistryProvider.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMModuleRegistry.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMInternalModule.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMDefines.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMExportedModule.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMViewManager.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMModuleRegistryDelegate.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMSingletonModule.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/admin/Documents/varsha-test/invock-test/ios/Pods/Headers/Public/UMCore/UMAppDelegateWrapper.h
