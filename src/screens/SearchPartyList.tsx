@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { Component, useState } from 'react';
 import { connect } from 'react-redux';
-import { Button, FlatList, View, Text, SafeAreaView, StyleSheet, TouchableOpacity } from 'react-native';
+import { FlatList, View, Text, SafeAreaView, StyleSheet, TouchableOpacity } from 'react-native';
 import { fetchPartyList, searchFromList, addParty, resetSearchList } from '../actions/PartyActions';
-import Constants from 'expo-constants';
 import SearchBox from '../components/SearchBox';
 import NoResultFound from '../components/NoResultFound';
+import { commonStyle } from '../assets/common-style';
 
 const styles = StyleSheet.create({
  
@@ -25,9 +25,11 @@ function RenderPartyList (props: {
     props.resetSearchList();
   }
   return (
-    <TouchableOpacity onPress={() => props.addParty({party: props.item, onSuccessCallBack: onSuccessOfAddingParty()})}>
-      <Text>{props.item.name}</Text>
-      <Text>{props.item.address}</Text>
+    <TouchableOpacity
+      style={commonStyle.listContainer}
+      onPress={() => props.addParty({party: props.item, onSuccessCallBack: onSuccessOfAddingParty()})}>
+      <Text style={commonStyle.partyName}>{props.item.name}</Text>
+      <Text style={commonStyle.partyAddress}>{props.item.address}</Text>
     </TouchableOpacity>
   );
 }

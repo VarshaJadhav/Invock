@@ -26,7 +26,7 @@ function SearchBox (props: {
   return (
     <View>
       <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
+        style={{ height: 40, borderColor: 'gray', borderWidth: 1, paddingHorizontal: 15 }}
         onChangeText={text => onChangeOfVal(text)}
         value={value}
         placeholder={props.placeholder || 'Search'}

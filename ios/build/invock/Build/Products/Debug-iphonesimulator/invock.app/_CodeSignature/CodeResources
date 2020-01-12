@@ -14,11 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r7GXzxI+e/JjC+mb5+NoILZY1M8=
+		1n0aGHZEAGxU0aa4gLqwb50XMn4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>SpaceMono-Regular.ttf</key>
+		<data>
+		+uOlpDtQ4ECP1h4UOD2UoCPTMrA=
+		</data>
+		<key>fontawesome.ttf</key>
+		<data>
+		b0oEv8QuO7nFAH4YdTKyoA0i2Kc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,6 +51,28 @@
 			<key>hash2</key>
 			<data>
 			19ecXo+YXJJiTt0D52U9QIdRr9MTnTalpsEatR/bbYY=
+			</data>
+		</dict>
+		<key>SpaceMono-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+uOlpDtQ4ECP1h4UOD2UoCPTMrA=
+			</data>
+			<key>hash2</key>
+			<data>
+			TDIlFNJlBiqj9/vYH1t5ORzLdCaOaiBgAGHgzjMjT0E=
+			</data>
+		</dict>
+		<key>fontawesome.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b0oEv8QuO7nFAH4YdTKyoA0i2Kc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Sg7htbsEMC5Y/RrQgU6AYju05i+HzQlMRaCQ3TUvDA4=
 			</data>
 		</dict>
 	</dict>
