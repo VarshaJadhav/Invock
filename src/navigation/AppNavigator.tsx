@@ -1,7 +1,7 @@
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import AddPartyList from '../screens/AddPartyList';
-import SeachPartyList from '../screens/SeachPartyList';
+import SeachPartyList from '../screens/SearchPartyList';
 import { ROUTES_KEYS } from '../constants/RoutesKeys';
 
 const MainNavigator = createStackNavigator({
