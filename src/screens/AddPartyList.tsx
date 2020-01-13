@@ -5,7 +5,7 @@ import { ROUTES_KEYS } from '../constants/RoutesKeys';
 import { fetchPartyBalance } from '../actions/PartyActions';
 import { COLORS } from '../constants/Colors';
 import { commonStyle } from '../assets/common-style';
-import FontAwesome, { SolidIcons, RegularIcons, BrandIcons } from 'react-native-fontawesome';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const styles = StyleSheet.create({
   partyDetailsContainer: {
@@ -36,23 +36,27 @@ function RenderAddedParty (props: {
   }
 }) {
   return (
-    <TouchableOpacity style={[commonStyle.listContainer, commonStyle.flexDirection, { alignItems: 'center'}]} onPress={() => {}}>
-      <Text style={{marginRight: 10}}>icon</Text>
-      <View style={{width: '80%'}}>
-      <View>
-        <Text style={commonStyle.partyName} >{props.item.name}</Text>
-        <Text style={[commonStyle.partyAddress, {color: '#878787'}]}>{props.item.address}</Text>
-      </View>
-      
-      {
-        !!props.item.currentBalance &&
-        <View style={[commonStyle.flexDirection, { marginTop: 5 }]}>
-          <Text style={styles.currentBalanceText}>Current Balance: </Text>
-          <Text style={styles.currentBalanceText}>{`Rs. ${props.item.currentBalance} Dr`}</Text>
+    <TouchableOpacity style={[
+      commonStyle.listContainer,
+      commonStyle.flexDirection,
+      commonStyle.spaceBetween,
+      {alignItems: 'center'}]} onPress={() => {}}>
+      <View style={[commonStyle.flexDirection, {alignItems: 'center', width: '80%'}]}>
+        <Icon name={'ios-contact'} size={30} color={'#878787'}/>
+        <View style={{marginLeft: 10}}>
+          <Text style={commonStyle.partyName} >{props.item.name}</Text>
+          <Text style={[commonStyle.partyAddress, {color: '#878787'}]}>{props.item.address}</Text>
+
+          {
+            !!props.item.currentBalance &&
+            <View style={[commonStyle.flexDirection, { marginTop: 5 }]}>
+              <Text style={styles.currentBalanceText}>Current Balance: </Text>
+              <Text style={styles.currentBalanceText}>{`Rs. ${props.item.currentBalance} Dr`}</Text>
+            </View>
+          }
         </View>
-      }
       </View>
-      <Text style={{marginLeft: 5}}>icon</Text>
+      <Icon name={'ios-arrow-forward'} size={30} color={'#878787'} />
     </TouchableOpacity>
   );
 }
@@ -73,12 +77,12 @@ const AddPartyList: React.FC<Props> = props => {
         <Text style={styles.partyDetailsText}>Party Details</Text>
       </View>
 
-      <TouchableOpacity style={[styles.addedPartyContainer, commonStyle.flexDirection, commonStyle.spaceBetween]} onPress={() => navigate(ROUTES_KEYS.SeachPartyList)}>
+      <TouchableOpacity style={[styles.addedPartyContainer, commonStyle.flexDirection, commonStyle.spaceBetween, { marginBottom: 10 }]} onPress={() => navigate(ROUTES_KEYS.SeachPartyList)}>
         <View style={commonStyle.flexDirection}>
-          <Text style={{color: 'blue'}}>icon</Text>
-          <Text style={{marginLeft: 10, color: 'blue'}}>+ add party</Text>
+          <Icon name={'ios-contact'} size={30} color={'#95A4E9'}/>
+          <Text style={{marginLeft: 10, color: '#5A72DD', alignSelf: 'center'}}>+ add party</Text>
         </View>
-        <Text>right icon</Text>
+        <Icon name={'ios-arrow-forward'} size={30} color={'#C6C6C6'}/>
       </TouchableOpacity>
 
       <FlatList
